@@ -1,7 +1,7 @@
 import { GrFormNext, GrFormPrevious } from 'react-icons/gr'
-import {UserForm} from './components/UserForm'
-import {ReviewForm} from './components/ReviewForm'
-import {Thanks} from './components/thanks'
+import UserForm from './components/UserForm'
+import ReviewForm from './components/ReviewForm'
+import Thanks from './components/Thanks'
 import React, { useState } from 'react'
 import './App.css'
 
@@ -27,7 +27,7 @@ function App() {
       <div className="app">
         <div className="header">
           <h2>Deixe sua avaliação!</h2>
-          <p>ficamos felizes com a sua compra, use o forulário para avaliar sua compra!</p>
+          <p>ficamos felizes com a sua compra, use o formulário para avaliar sua compra!</p>
         </div>
         <div className="form-container">
           <p>etapas</p>

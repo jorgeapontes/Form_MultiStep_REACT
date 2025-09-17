@@ -1,4 +1,5 @@
 import React from 'react'
+import './thanks.css'
 
 const thanks = () => {
   return (
